@@ -3,7 +3,8 @@
 class School 
 attr_accessor :name, :roster
 
-def initialize ()
+def initialize(name)
+  
 end 
 
 school = School.new("Bayside High School")
