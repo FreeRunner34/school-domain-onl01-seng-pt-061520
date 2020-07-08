@@ -13,6 +13,12 @@ def initialize(name)
     roster[level] << student
   end 
   
+    def grade(level)
+    roster.detect do |x, y| 
+      if x == level
+        return y 
+      end 
+  
 end 
 
 school = School.new("Bayside High School")
