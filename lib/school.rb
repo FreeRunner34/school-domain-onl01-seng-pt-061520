@@ -18,7 +18,7 @@ def initialize(name)
       if x == level
         return y 
       end 
-  
+  end 
 end 
 
 school = School.new("Bayside High School")
