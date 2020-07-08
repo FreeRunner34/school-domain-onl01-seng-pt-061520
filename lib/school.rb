@@ -13,12 +13,13 @@ def initialize(name)
     roster[level] << student
   end 
   
-    def grade(level)
-    roster.detect do |x, y| 
-      if x == level
-        return y 
-      end 
+    def sort 
+  nu_hash = {}
+  roster.each do |x, y| 
+    nu_hash[x] = y.sort 
   end 
+  nu_hash
+end 
 end 
 
 school = School.new("Bayside High School")
